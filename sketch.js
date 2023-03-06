@@ -48,7 +48,7 @@ function preload() {
 	plate4 = loadImage("./images/plate4.png");
 	none = loadImage("./images/none.png");
 	notepad = loadImage("./images/notepad.jpeg");
-	font = loadFont("./images/Autography.otf");
+	font = loadFont("./Autography.otf");
 }
 
 function setup() {
