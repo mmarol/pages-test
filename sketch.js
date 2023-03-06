@@ -29,26 +29,26 @@ let notepad;
 let font;
 
 function preload() {
-	friedegg = loadImage("./fried egg.png");
-	waffle = loadImage("./images/waffle.png");
-	mcmuffin = loadImage("./mcmuffin.png");
-	bacon = loadImage("./bacon.png");
-	matcha = loadImage("./matcha.png");
-	acaibowl = loadImage("./acaibowl.png");
-	avocado = loadImage("./avocado.png");
-	salapao = loadImage("./salapao.png");
-	platonggo = loadImage("./platonggo.png");
-	sushi = loadImage("./sushi.png");
-	hashbrown = loadImage("./hashbrown.png");
-	tomato = loadImage("./tomato.png");
+	friedegg = loadImage("./images/fried egg.png");
+	waffle = loadImage("./images/images/waffle.png");
+	mcmuffin = loadImage("./images/mcmuffin.png");
+	bacon = loadImage("./images/bacon.png");
+	matcha = loadImage("./images/matcha.png");
+	acaibowl = loadImage("./images/acaibowl.png");
+	avocado = loadImage("./images/avocado.png");
+	salapao = loadImage("./images/salapao.png");
+	platonggo = loadImage("./images/platonggo.png");
+	sushi = loadImage("./images/sushi.png");
+	hashbrown = loadImage("./images/hashbrown.png");
+	tomato = loadImage("./images/tomato.png");
 
-	plate1 = loadImage("./plate.png");
-	plate2 = loadImage("./plate2.png");
-	plate3 = loadImage("./plate3.png");
-	plate4 = loadImage("./plate4.png");
-	none = loadImage("./none.png");
-	notepad = loadImage("./notepad.jpeg");
-	font = loadFont("./Autography.otf");
+	plate1 = loadImage("./images/plate.png");
+	plate2 = loadImage("./images/plate2.png");
+	plate3 = loadImage("./images/plate3.png");
+	plate4 = loadImage("./images/plate4.png");
+	none = loadImage("./images/none.png");
+	notepad = loadImage("./images/notepad.jpeg");
+	font = loadFont("./images/Autography.otf");
 }
 
 function setup() {
