@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* Styles the whole slider */
+.Slider{
+  width: 120;
+  background-color: transparent;
+  
+  /* Removes some defaults */
+  -webkit-appearance: none;
+}
+
+
+/* These styles affect what happens when the cursor is focused on the slider (i.e. clicking it) */
+.Slider:focus {
+  
+  /* Stops the default outline showing up */
+  outline: none;
+}
+
+/* This is the "track" that the slider sits on  */
+.Slider::-webkit-slider-runnable-track {
+  background: #FF9994;
+  height: 5px;
+  -webkit-appearance: none;
+  
+  /* Turns the cursor into the hand pointer icon when hovering over the slider  */
+  cursor: pointer;
+  
+}
+
+/* This is the moveable bit of the slider, known as the "thumb"*/
+.Slider::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  background: #F44336;
+  cursor: pointer;
+  -webkit-appearance: none;
+
+   /* negative top padding moves it up */
+  margin-top: -5px;
+
+  
+  /* Border radius gives rounded corners, if they're big enough, you end up with circles */
+  border-radius: 8px;
+  
+}
+
+.Button{
+
+  
+                    display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-weight: 500;
+                    border: 4px solid #F44336;
+                    border-radius: 20px;
+                    height: 25px;
+                    line-height: 14px;
+                    font-size: 14px;
+                    color: #241c15;
+                    background-color: #FAF1D0;
+                    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+                    padding: 10 30px;
+                    
+                    :hover {
+                        color: #FAF1D0;
+                        background-color: #F44336;
+                    }
+                
+                
+                
+}
