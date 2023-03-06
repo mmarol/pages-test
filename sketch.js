@@ -30,7 +30,7 @@ let font;
 
 function preload() {
 	friedegg = loadImage("./images/fried egg.png");
-	waffle = loadImage("./images/images/waffle.png");
+	waffle = loadImage("./images/waffle.png");
 	mcmuffin = loadImage("./images/mcmuffin.png");
 	bacon = loadImage("./images/bacon.png");
 	matcha = loadImage("./images/matcha.png");
